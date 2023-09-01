@@ -1,0 +1,235 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+
+
+}
+.header{
+    padding: 20px 300px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    display: flex;
+    align-items: center;
+}
+.logo{
+    width: 35%;
+}
+.logo img{
+    width: 300px;
+
+}
+.title{
+    opacity: 0.7;
+    font-style: italic;
+    font-size: 20px;
+    width: 60%;
+}
+.info{
+    text-align: right;
+    width: 30%;
+}
+.info p:first-child{
+    letter-spacing: 1px;
+    font-size: 30px;
+}
+.main{
+    flex: 1;
+}
+.title_block{
+    height: 700px;
+    background: url(../bgkik.jpg) no-repeat;
+    background-size: cover;
+
+}
+.tb_content{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: rgba(0, 0, 0, 0.37);
+    height: inherit;
+    color: white;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+}
+.tb_content h3{
+    font-style: italic;
+    font-size: 70px;
+
+}
+.tb_content p{
+    text-align: center;
+    font-size: 20px;
+    letter-spacing: 1px;
+    padding-bottom: 20px;
+}
+.tb_content button{
+    border:  none;
+    font-size: 20px;
+    padding: 20px 40px;
+    color: white;
+    width: 300px;
+    letter-spacing: 1px;
+    border-radius: 40px;
+    background-color: rgb(182, 141, 122);
+    transition: .3s ease-in-out;
+}
+.tb_content button:hover{
+    background-color: rgb(185, 74, 22);
+
+}
+
+
+
+
+
+.aboutus{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-items: center;
+    padding: 20px 300px;
+}
+.aboutus_title{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    padding-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.aboutus_title p:first-child{
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+}
+.aboutus_title p:last-child{
+    font-size: 25px;
+    font-style: italic;
+}
+
+
+
+
+.aboutus_cards{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+
+
+
+
+.crad{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    height: 300px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.crad .image img{
+    width: 100px;
+}
+.crad .image{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.crad .image > p{
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+}
+.card_title p{
+    text-align: center;
+
+    font-size: 20px;
+}
+
+
+.mail{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    padding: 20px 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: #000000ee
+}
+.mail h2{
+    color: white;
+    padding-bottom: 30px;
+}
+
+.mail form{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+::placeholder{
+
+    letter-spacing: 2px;
+    color: white;
+    font-size: 14px;
+}
+.mail form > div{
+    padding-bottom: 10px;
+}
+.mail form > div input::placeholder{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.mail form > div input{
+    padding: 2px 10px;
+    background:none;
+    outline: none;
+    font-size: 30px;
+    color: orange;
+    border:none ;
+    border-left: 2px solid orange;
+}
+
+.mail form button{
+    text-transform: uppercase;
+    padding: 10px 60px;
+    font-size: 20px;
+    background: none;
+    color: white;
+    border: 1px solid orange;
+    border-radius: 2px;
+    transition: .3s ease-in-out;
+}
+.mail form button:hover{
+    background-color: orange;
+}
+.mail form > div textarea{
+    background:none;
+    padding: 10px;
+    outline: none;
+    font-size: 17px;
+    color: orange;
+    border:none ;
+    border: 2px solid orange;
+    border-radius: 5px;
+}
+
+footer{
+    padding: 20px 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
